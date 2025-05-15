@@ -1,7 +1,7 @@
 <h2 align="center">
   Portfolio Personal
   <br/>
-  <a href="https://portfolio.galaxynetwork.fr" target="_blank">portfolio.galaxynetwork.fr</a>
+  <a href="https://portfolio.martin-network.fr" target="_blank">portfolio.martin-network.fr</a>
 </h2>
 
 ---
@@ -30,13 +30,13 @@ To install **Portfolio Personal**, follow these steps:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/PetitPrinceQLF/WEB-Portfolio-Personal.git
+sudo git clone https://github.com/Tinmaar24/WEB-Portfolio.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/PetitPrinceQLF/WEB-Portfolio-Personal.git
+git clone https://github.com/Tinmaar24/WEB-Portfolio.git
 ```
 
 ---
@@ -47,7 +47,7 @@ Special thanks to [codewithsadee](https://github.com/codewithsadee) for creating
 
 ## Contact
 
-If you want to contact me you can reach me at rudy@galaxynetwork.fr.
+If you want to contact me you can reach me at contact@martin-network.fr.
 
 ---
 
