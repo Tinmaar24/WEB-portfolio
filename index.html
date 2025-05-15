@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Martin TROUILLET</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/favicons/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Martin Trouillet" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Martin Trouillet">Martin Trouillet</h1>
+
+          <p class="title">Ingénieur systèmes</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Mail</p>
+
+              <a href="mailto:martin.pro@martin-network.fr" class="contact-link">martin.pro@martin-network.fr</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:+33783187785" class="contact-link">07 83 18 77 85</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Date de naissance</p>
+
+              <time datetime="1982-06-23">24 Juillet 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Ville</p>
+
+              <address>Courtillers, Pays de La Loire, France</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Tinmaar24" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/martin-trouillet-b9a131330/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://discord.gg/e9JtFwRPF6" class="social-link">
+              <ion-icon name="logo-discord"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link="A propos">A propos</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link ="CV">CV</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link ="Projets">Projets</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="contact">Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #A propos
+      -->
+
+      <article class="about  active" data-page="A propos">
+
+        <header>
+          <h2 class="h2 article-title">Qui suis-je ?</h2>
+        </header>
+
+        <section class="about-text">
+
+          <section>
+            <br><br>
+            <h2>Bonjour, moi c’est Martin Trouillet 👋</h2>
+            <br>
+            <p>🗓️ <strong>Âge</strong> : 22 ans</p>
+            <p>📍 <strong>Lieu</strong> : Courtillers, France</p>
+            <p>🌍 <strong>Nationalité</strong> : Française </p>
+            <p>🦁 <strong>Né en Juillet</strong></p>
+          </section>
+
+          <br><br>
+
+          <section>
+            <h2>🖥️ Etudiant & Adminsys</h2>
+            <br>
+            <p>
+              Je poursuis actuellement un Master MICSI (Manager en Infrastructures et Cybersécurité des Systèmes d'Information) au <a href="https://www.cesi.fr/" class="inline-link" target="_blank">CESI</a> du Mans tout en occupant le poste d’administrateur système chez <a href="https://www.dri.fr/" class="inline-link" target="_blank">Digital Rural Informatique</a> (DRI).
+            </p>
+            <p> 
+              Pour en savoir davantage sur mon parcours, n’hésitez pas à consulter ma page CV.
+            </p>
+          </section>
+
+          <br><br>
+
+          <section>
+            <h2>🔧 Un passionné d'informatique</h2>
+            <p>
+              <br>
+              C’est au lycée que j’ai découvert l’informatique — un véritable déclic. Aujourd’hui, c’est aussi devenu mon métier.
+            </p>
+            <p>
+              Passionné par l’architecture des systèmes, j’aime concevoir, déployer et maintenir des infrastructures informatiques, avec une affinité particulière pour les solutions open source.
+            </p>
+            <p>
+              Ce qui m’anime au quotidien : donner vie à des idées en construisant des environnements fiables, performants et durables — que ce soit en optimisant l’existant ou en développant de nouvelles plateformes.
+            </p> 
+            <p>
+              Toujours curieux, je cherche en permanence à élargir mes compétences et à m’investir dans des projets ambitieux et inspirants.
+            </p>
+          </section>
+
+          <br><br>
+
+          <section>
+            <h2>🏐 Loisirs et passions</h2>
+            <p>
+              <br>
+              En dehors des claviers et des écrans, je pratique le Volley-Ball depuis presque 2ans.
+              En dehors de mon activité principale, je pratique la musculation en salle quatre fois par semaine.
+            </p>
+            <p>
+              Le sport m’aide à décrocher de l’ordinateur et à me vider l’esprit.
+            </p>
+          </section>
+
+          <br><br>
+
+          <section>
+            <h2>📬 Contact</h2>
+            <p>
+              Une idée, un projet en tête, ou simplement envie d’échanger ? 
+            <p>
+            </p>
+            N’hésitez pas à parcourir mes réalisations ou à <a href="mailto:martin.pro@martin-network.fr" class="inline-link" target="_blank">me contacter</a>, je suis toujours ouvert à la discussion, curieux d’apprendre et de partager !
+            </p>
+          </section>
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CV
+      -->
+
+      <article class="resume" data-page="CV">
+
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formation</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master Manager en Infrastructures et Cybersécurité des SI en alternance</h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                <ion-icon name="person" class="icon-resume"></ion-icon> Profil : Étudiant en alternance
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="document" class="icon-resume"></ion-icon> Programme : Master Professionnels (bac+5)
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="star" class="icon-resume"></ion-icon> Niveau : BAC +5
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="time" class="icon-resume"></ion-icon> Durée : 2 ans
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="pin" class="icon-resume"></ion-icon> Ecole : CESI - Le Mans
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor Administrateur Systèmes et Réseaux en alternance</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                <ion-icon name="person" class="icon-resume"></ion-icon> Profil : Étudiant en alternance
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="document" class="icon-resume"></ion-icon> Programme : Bachelor (bac+3)
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="star" class="icon-resume"></ion-icon> Niveau : BAC +3
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="time" class="icon-resume"></ion-icon> Durée : 1 an
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="pin" class="icon-resume"></ion-icon> Ecole : CESI - Le Mans
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DUT Réseaux et Télécommunication</h4>
+
+              <span>2020 — 2022</span>
+
+              <p class="timeline-text">
+                <ion-icon name="person" class="icon-resume"></ion-icon> Profil : Étudiant
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="document" class="icon-resume"></ion-icon> Programme : DUT RT
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="star" class="icon-resume"></ion-icon> Niveau : BAC +2
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="time" class="icon-resume"></ion-icon> Durée : 2 ans
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="pin" class="icon-resume"></ion-icon> Ecole : IUT Caen - Campus de Ifs
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Baccaleauréat Scientifique</h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                <ion-icon name="person" class="icon-resume"></ion-icon> Profil : Étudiant
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="document" class="icon-resume"></ion-icon> Programme : BAC Général Scientifique (option : ISN)
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="star" class="icon-resume"></ion-icon> Niveau : BAC
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="time" class="icon-resume"></ion-icon> Durée : 3 ans
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="pin" class="icon-resume"></ion-icon> Ecole : Lycée Raphaël Elize
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Expérience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DRI</h4>
+
+              <span>2022 — 2025</span>
+
+              <p class="timeline-text">
+                <ion-icon name="briefcase" class="icon-resume"></ion-icon> Poste : Alternant administrateur systèmes
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="extension-puzzle" class="icon-resume"></ion-icon> Missions
+              </p>
+              <p class="timeline-text tabulation">
+                - Déploiement d’infrastructures redondantes et hautement disponibles multi-sites (PRA et PCA).
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Amélioration des outils, des processus internes et optimisation des coûts (supervision, alerting).
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Référent technique clients et chef de projet
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Développement et gestion d’infrastructures automatisées via GitLab en utilisant des outils de gestion de configuration (Puppet | Ansible).
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Support : assistance technique auprès des clients, en résolvant les incidents N1 et N2.
+              </p>
+              <br>
+              <p class="timeline-text tabulation">
+                - Exploitation : Anticipe et résout les problèmes techniques d'exploitation en apportant des solutions efficaces
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Stage LDC Sablé</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                <ion-icon name="briefcase" class="icon-resume"></ion-icon> Poste : Stagiaire équipe infrastructure informatique
+              </p>
+              <p class="timeline-text">
+                <ion-icon name="extension-puzzle" class="icon-resume"></ion-icon> Missions
+              </p>
+              <p class="timeline-text tabulation">
+                - Projet de téléphonie IP (Fixe, DECT)
+              </p>
+              <p class="timeline-text tabulation">
+                - Projet mise en place d'un dashboard de statistiques (Kibana, elasticsearch)
+              </p>
+              
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Mes compétences technique</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Systèmes d’exploitation Linux (Debian | CentOS | Ubuntu| Mint)</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Systèmes d’exploitation Windows</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Sauvegarde (Bareos | Bacula | Rsnapshot| PBS | VEEAM)</h5>
+                <data value="45">45%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 45%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Supervision (Nagios | 24x7 | Zabbix | Uptime-Kuma)</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Virtualisation (vSphere | Proxmox | Vmware ESXi | VirtualBox)</h5>
+                <data value="45">45%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 45%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Conteneurisation (Docker | LXC)</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Pare-feu (OPNsense | PFsense | IPTABLES |Fwbuilders)</h5>
+                <data value="30"30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web | reverse proxy | proxy (Apache | Nginx | HaProxy | Varnish | Squid)</h5>
+                <data value="55">55%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 55%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Journalisation (Graylog | Rsyslog | Rotatelogs)</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Base de données (MariaDB/MySQL | PostgreSQL)</h5>
+                <data value="45">45%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 55%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Infrastucture as code | Provisionning (Gitlab | Ansible | Puppet)</h5>
+                <data value="20">20%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 20%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Contact avec les utilisateurs/clients</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Projets
+      -->
+
+      <article class="portfolio" data-page="Projets">
+
+        <header>
+          <h2 class="h2 article-title">Projets</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn="all">Tous</button>
+            </li>
+
+            <li class="filter-item">
+               <button data-filter-btn="applications">Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn="website">Site web</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Sélectionner une catégorie</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item="all">Tous</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item="applications">Développement web</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item="website">Applications</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="website">
+              <a href="https://github.com/PetitPrinceQLF/WEB-Portfolio-LinuxConsole" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolio.png" alt="Porfolio personnal web" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Porfolio personnal web</h3>
+
+                <p class="project-category">Site Web</p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/Tinmaar24/DOCKER-Stack-Plex" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/docker_plex.png" alt="DOCKER-Stack-Plex" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DOCKER-Stack-Plex</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/Tinmaar24/DOCKER-Stack-Mail" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/docker_mail.png" alt="DOCKER-Stack-Mail" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DOCKER-Stack-Mail</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20600.509092461034!2d-0.33478211133094793!3d47.80585580733266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48083f080206ac2f%3A0xf693763c76dc857b!2s72300%20Courtillers!5e1!3m2!1sfr!2sfr!4v1734641181632!5m2!1sfr!2sfr"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulaire de contact</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nom complet" required data-form-input>
+
+              <input id="email" type="email" name="email" class="form-input" placeholder="Adresse email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Votre message" required data-form-input></textarea>
+
+            <button onclick="envoieMail()" class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Envoyer un message</span>
+            </button>
+          
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
